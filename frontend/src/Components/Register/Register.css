@@ -1,0 +1,32 @@
+.Register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90%;
+  flex-direction: column;
+}
+
+.RegisterInput {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  width: 300px;
+}
+
+.password-icon {
+  margin: 20px 0 0 0;
+}
+
+.password-icon:hover {
+  color: #555;
+}
+
+.failureMessage {
+  background-color: #f8d7da;
+  padding: 15px;
+  color: #752028;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.RegisterButton {
+  margin-top: 20px!important;
+}

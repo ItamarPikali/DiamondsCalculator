@@ -1,0 +1,19 @@
+.App {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 5% 90% 5%;
+}
+
+.App > header,
+.App > footer {
+  grid-column: span 6;
+}
+
+.App > main {
+  grid-column: span 5;
+}
+
+aside {
+  border: 1px solid black;
+}

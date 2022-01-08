@@ -1,0 +1,29 @@
+.Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90%;
+  flex-direction: column;
+}
+
+.loginInput {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  width: 300px;
+}
+
+.password-Licon {
+  margin-bottom: 20px;
+}
+
+.password-icon:hover {
+  color: #555;
+}
+
+.failureMessage {
+  background-color: #f8d7da;
+  padding: 15px;
+  color: #752028;
+  border-radius: 10px;
+  margin-top: 20px;
+}
